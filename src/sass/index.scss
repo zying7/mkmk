@@ -1,0 +1,65 @@
+@import 'public';
+.header{
+    width:100%;
+    height:31px;
+    border:1px solid #dddddd;
+    font-size: 12px;
+    color:#999999;
+    .container1{
+        width: 1150px;
+        height: 129px;
+//      float:left;
+        margin:0 auto;
+//      margin-left: 135px;
+        .register{
+            width:220px;
+            height:30px;
+            border:1px solid #dddddd;
+            border-bottom:1px solid #ffffff;
+            float:left;
+            margin-left:102px;
+            text-align: center;
+            line-height: 31px;
+            }
+        ul{
+            height: 31px;
+            float: right;
+            li{
+                float:left;
+                line-height: 31px;
+                padding-left:9px;
+                padding-right:9px;
+                background:url(../img/line.jpg) no-repeat right center;
+            }
+            .map{
+                background: none;
+            }
+        }
+    }
+    .logo{
+        clear:both;
+        width:336px;
+        float: left;
+        padding-top:21px;
+    }
+    .twoCode{
+        float: left;
+        padding-left: 88px;
+        padding-top: 24px;
+    }
+    .phoneNum{
+        float: left;
+        padding-left: 200px;
+        padding-top: 54px;
+        color:#dc4f45;
+        font-size:19px;
+    }
+    .shopCar{
+        float: right;
+        padding-left: 101px;
+        padding-top: 54px;
+        color:#dc4f45;
+        font-size:19px;
+        background: url(../img/shopCar.png) no-repeat 70px 53px;
+    }
+}
