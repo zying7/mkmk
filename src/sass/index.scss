@@ -1,16 +1,15 @@
 @import 'public';
+//头部
 .header{
     width:100%;
     height:31px;
     border:1px solid #dddddd;
     font-size: 12px;
     color:#999999;
-    .container1{
+    .container{
         width: 1150px;
         height: 129px;
-//      float:left;
         margin:0 auto;
-//      margin-left: 135px;
         .register{
             width:220px;
             height:30px;
@@ -23,13 +22,17 @@
             }
         ul{
             height: 31px;
-            float: right;
+            float: left;
+            margin-left: 260px;
             li{
                 float:left;
                 line-height: 31px;
                 padding-left:9px;
                 padding-right:9px;
                 background:url(../img/line.jpg) no-repeat right center;
+                a{
+                    color:#999999;
+                }
             }
             .map{
                 background: none;
@@ -41,25 +44,314 @@
         width:336px;
         float: left;
         padding-top:21px;
+        padding-bottom: 15px;
     }
     .twoCode{
         float: left;
-        padding-left: 88px;
-        padding-top: 24px;
+        padding-left: 38px;
+        padding-top: 30px;
     }
     .phoneNum{
         float: left;
-        padding-left: 200px;
+        padding-left: 250px;
         padding-top: 54px;
         color:#dc4f45;
         font-size:19px;
     }
     .shopCar{
-        float: right;
-        padding-left: 101px;
+        float: left;
+        padding-left: 120px;
         padding-top: 54px;
         color:#dc4f45;
         font-size:19px;
-        background: url(../img/shopCar.png) no-repeat 70px 53px;
+        background: url(../img/shopCar.png) no-repeat 60px 53px;
+    }
+}
+//nav
+nav{
+    width:100%;
+    height:62px;
+    background:#555555;
+    clear: both;
+    ul{
+        width: 1150px;
+        height:62px;
+//      float: left;
+        margin:0 auto;
+//      padding-left: 54px;
+        li{
+            float:left;
+            font-size:16px;
+            width: 164px;
+            text-align: center;
+            line-height: 62px;
+            a{
+              color:#ffffff;
+            }
+        }
+    }
+}
+//banner
+banner{
+    width:100%;
+    height:590px;
+//  position:absolute;
+    img{
+        display: block;
+        width: 100%;
+    }
+    .bannerLeft{
+        width: 46px;
+        height: 85px;
+        background: url(../img/but1.png) no-repeat right;
+        position: absolute;
+        left:0;
+        top:380px;
+    }
+    .bannerRight{
+        width: 46px;
+        height: 85px;
+        background: url(../img/but1.png) no-repeat left;
+        position: absolute;
+        right:0;
+        top:380px;
+    }
+    .banBottom{
+        clear: both;
+        width:944px;
+        height:92px;
+        background:url(../img/bannerBottom.png) no-repeat ;
+        position:absolute;
+        left:241px;
+        top:600px;
+        .L{
+            width: 72px;
+            height: 46px;
+            float: left;
+            margin-left: 44px; 
+            margin-top: 18px; 
+            a{
+                color:#fff;
+                font-size:18px;
+            }
+        }
+        .M {
+//          width: 157px;
+            height: 27px;
+            float: left;
+            margin-left: -100px; 
+            margin-top: 33px; 
+            background: url(../img/tell.jpg) no-repeat 340px;
+            a{
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            margin-left: 370px;
+            }
+        }
+        .R{
+           width:133px;
+           height: 38px; 
+           background-color: #FFFFFF;
+           float: left;
+           margin-left:251px;
+           margin-top: 25px;
+           text-align: center;
+           a{
+               line-height: 38px;
+               font-size: 16px;
+           }
+        } 
+    }
+}
+//recommendation精品推荐
+.recommendation{
+    clear:both;
+    width: 100%;
+    height:1096px;
+    background-color: #e2e5e9;
+    .bg1{
+        height: 50px;
+        background: #E2E5E9;
+    }
+    .bg2{
+        float: left;
+        width: 347px;
+        height: 273px;
+        margin-left: 44px;
+        margin-top: 50px;
+    }
+    .title{
+        float: left;
+        width:660px ;
+        height: 323px;
+        .ico1{
+            margin-left:298px;
+            margin-top:95px;
+        }
+        .box{
+            height: 114px;
+            margin-top: 30px;
+            .ico2{
+                margin-left: 40px;
+            }
+            .word1{
+                text-align: center;
+                display: inline-block;
+                width: 233px;
+                height: 37px;
+                font-size: 30px;
+                color: #555555;  
+            }
+        }
+        .word2{
+            display: inline-block;
+            font-size: 20px;
+            color: #DC4F45;
+            margin-left: 245px;
+            margin-top: 9px;
+        }
+    }
+    .cakebutL{
+            clear:both;
+            width: 50px;
+            height:50px;
+            background: url(../img/main.png) no-repeat 0 -308px;
+            position: absolute;
+            top:1285px;
+            left:109px;
+        }
+    .cakebutR{
+        clear:both;
+        width: 50px;
+        height:50px;
+        background: url(../img/main.png) no-repeat -149px -308px;
+        position: absolute;
+        top:1285px;
+        right:109px;
+    }
+    .cakeShow1,.cakeShow2{
+        clear: both;
+        width: 1150px;
+        height: 536px;
+        margin: 0 auto;
+        .sweet{
+            width:85px;
+            height:115px;
+            position:absolute;
+            background: url(../img/main.png) no-repeat -115px -93px;
+            left:1154px;
+            p{
+               font-size: 14px;
+               color:#FFFFFF;
+               text-align: center; 
+               margin-top: 36px;
+            }
+            .hot{
+                margin-top:10px;
+            }
+        }
+        .cakeImg{
+            width: 457px;
+            height:536px;
+            float: left;
+        }
+        .cakeList1,.cakeList2{
+            float:left;
+            background: #FFFFFF;
+            width:693px ;
+            height:536px;
+            h3{
+                height:121px;
+                line-height: 121px;
+                margin-left: 44px;
+                a{
+                    color:#333333;
+                    font-size: 26px;
+                }   
+            }
+            ul{
+                margin-left: 20px;
+                li{
+                    float: left; 
+                    height: 352px; 
+                    margin-left: 10px;
+                    .price{
+                        font-size: 22px;
+                        color:#DC4F45;
+                        text-indent:13px;
+                        margin-top: 13px;
+                    }
+                    .cakeName{
+                        margin-top: 8px;
+                        text-indent: 10px;   
+                        a{
+                            color:#666666;
+                            font-size: 14px;
+                        }
+                    }
+                    .num{
+                        display: inline-block;
+                        color:#999999;
+                        margin-top: 5px;
+                        text-indent: 10px;
+                        font-size: 13px; 
+                    }
+                    .more{
+                       margin-top: 42px;
+                       width: 45px;
+                       height:25px;
+                       background: url(../img/but.png) no-repeat;
+                       text-align: center;
+                       margin-left: 15px;
+                       a{
+                           color:#FFFFFF;
+                           font-size:12px;
+                           line-height: 29px;  
+                       }
+                    }
+                }
+            }  
+        }
+    }
+    .cakeBottom{
+        width: 170px;
+        height: 40px;
+        border-radius:20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        background: #DC4F45;
+        color:#FFFFFF;
+        margin:0 auto;
+        text-align: center;
+        line-height: 40px;
+        font-size:15px;
+        margin-top: 32px;
+    }
+    .boom{
+        margin-top: 42px;
+        img{
+            width:100%;
+            display: inline-block;
+        }
+    }
+}
+.picture{
+    width: 1150px;
+    height: 738px;
+    margin:0 auto;
+    margin-top: 55px;
+    img{
+        display: block;
+    }
+    .top{
+        margin-left: 136px;
+        margin-bottom: 6px;
+    }
+    .bottom{
+        width:1152px;
+        a{
+          float: left;
+        }
     }
 }

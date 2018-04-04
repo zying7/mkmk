@@ -14,8 +14,8 @@ gulp.task('sass',function(){
 	return gulp.src('src/sass/*.scss ').pipe(sass()).pipe(rename({'suffix':'.min'})).pipe(cssnano()).pipe(gulp.dest('css'));
 })
 //压缩js
-//gulp.task('js',function(){
-//	return gulp.src('src/js/*.js').pipe(rename({'suffix':'.min'})).pipe('uglify').pipe(gulp.dest('js'));
+//gulp.task('script',function(){
+//	return gulp.src('src/js/*.js').pipe(rename({'suffix':'.min'})).pipe(uglify()).pipe(gulp.dest('js'));
 //})
 //监听任务
 gulp.task('watch',function(){
