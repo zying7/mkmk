@@ -33,7 +33,7 @@
                 a{
                     color:#999999;
                     &:hover{
-                       color:#dc4f45;
+                        color:#DC4F45;
                     }
                 }
             }
@@ -90,354 +90,261 @@ nav{
             line-height: 62px;
             a{
               color:#ffffff;
-              &:hover{
-                color:#dc4f45;
-              }
             }
         }
     }
 }
-//banner
-banner{
-    width:100%;
-    height:590px;
-//  position:absolute;
-    .banner1{
-        display: block;
-//      width: 100%;
-        height:590px;
+
+.line{
+    width: 1150px;
+    height: 47px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e2e5e9;
+    margin-bottom: 24px;
+}
+.classes{
+    float: left;
+    width:934px ;
+    height:79px;
+    background: #e2e5e9;
+    margin-left:138px;
+    border-bottom: 1px solid #cccccc;
+    color: #666666;
+    p{
+        height: 37px;
+        line-height: 37px;
+        text-indent: 17px;
     }
-    .bannerLeft{
-        width: 46px;
-        height: 85px;
-        background: url(../img/but1.png) no-repeat right;
-        position: absolute;
-        left:0;
-        top:450px;
-    }
-    .bannerRight{
-        width: 46px;
-        height: 85px;
-        background: url(../img/but1.png) no-repeat left;
-        position: absolute;
-        right:35px;
-        top:450px;
-    }
-    .banBottom{
-        clear: both;
-        width:944px;
-        height:92px;
-        background:url(../img/bannerBottom.png) no-repeat ;
-        position:absolute;
-        left:241px;
-        top:745px;
-        .L{
-            width: 72px;
-            height: 46px;
-            float: left;
-            margin-left: 44px; 
-            margin-top: 18px; 
-            a{
-                color:#fff;
-                font-size:18px;
-                &:hover{
-                       color:#dc4f45;
-                }
+    ul{
+        float: left;
+        a{
+            color: #666666;
+            &:hover{
+                color:#DC4F45;
             }
         }
-        .M {
-//          width: 157px;
-            height: 27px;
+        li{
             float: left;
-            margin-left: -100px; 
-            margin-top: 33px; 
-            background: url(../img/tell.jpg) no-repeat 340px;
-            a{
+            height: 42px;
             text-align: center;
-            color: #fff;
-            font-size: 16px;
-            margin-left: 370px;
-                &:hover{
-                       color:#dc4f45;
-                }
-            }
+            line-height: 42px;
+            padding: 0 10px;
         }
-        .R{
-           width:133px;
-           height: 38px; 
-           background-color: #FFFFFF;
-           float: left;
-           margin-left:251px;
-           margin-top: 25px;
-           text-align: center;
-           a{
-               display: block;
-               width:133px ;
-               height:38px ;
-               line-height: 38px;
-               font-size: 16px;
-               &:hover{
-                       color:#FFFFFF;
-                       background: #e4857f;
-               }
-           }
-        } 
     }
 }
-//recommendation精品推荐
-.recommendation{
-    clear:both;
-    width: 100%;
-    height:1096px;
-    background-color: #e2e5e9;
-    .bg1{
-        height: 50px;
-        background: #E2E5E9;
-    }
-    .bg2{
+.select{
+    float: left;
+    width: 934px;
+    height: 41px;
+    line-height: 41px;
+    background: #e2e5e9;
+    margin-left:138px;
+    color: #666666;
+    .wordList{
         float: left;
-        width: 347px;
-        height: 273px;
-        margin-left: 44px;
-        margin-top: 50px;
-    }
-    .title{
-        float: left;
-        width:660px ;
-        height: 323px;
-        .ico1{
-            margin-left:298px;
-            margin-top:95px;
-        }
-        .box{
-            height: 114px;
-            margin-top: 30px;
-            .ico2{
-                margin-left: 40px;
-            }
-            .word1{
-                text-align: center;
-                display: inline-block;
-                width: 233px;
-                height: 37px;
-                font-size: 30px;
-                color: #555555;  
+        li{
+            float: left; 
+            line-height: 41px;
+            margin-left: 17px;
+            a{
+                color:#666666;
             }
         }
-        .word2{
-            display: inline-block;
-            font-size: 20px;
+        .red a{
             color: #DC4F45;
-            margin-left: 245px;
-            margin-top: 9px;
         }
+        .toparrow{
+            width: 38px;
+            background:url(../listImg/topArrow.png) no-repeat right;
+        }
+        .uparrow{
+            width: 38px;
+            background:url(../listImg/upArrow.png) no-repeat right;
+        }
+    } 
+    span{
+        display: inline-block;
+        float: left;
+        height: 41px;
+        margin-left:14px ;
+        color: #666666;
     }
-    .cakebutL{
-            clear:both;
-            width: 50px;
-            height:50px;
-            background: url(../img/main.png) no-repeat 0 -308px;
-            position: absolute;
-            top:1450px;
-            left:109px;
-        }
-    .cakebutR{
-        clear:both;
-        width: 50px;
-        height:50px;
-        background: url(../img/main.png) no-repeat -149px -308px;
-        position: absolute;
-        top:1450px;
-        right:109px;
+    .sort{
+        margin-bottom: 10px;
+        float: left;
+        margin:10px;
     }
-    .cakeShow2{
-            display: none;
-        }
-    .cakeShow1,.cakeShow2{
-        clear: both;
-        width: 1150px;
-        height: 536px;
-        margin: 0 auto;
-        .sweet{
-            width:85px;
-            height:115px;
-            position:absolute;
-            background: url(../img/main.png) no-repeat -115px -93px;
-            left:1154px;
-            p{
-               font-size: 14px;
-               color:#FFFFFF;
-               text-align: center; 
-               margin-top: 36px;
-            }
-            .hot{
-                margin-top:10px;
-            }
-        }
-        .cakeImg{
-            width: 457px;
-            height:536px;
+    .piclist{
+        float: right;
+        li{
             float: left;
-        }
-        .cakeList1,.cakeList2{
-            float:left;
-            background: #FFFFFF;
-            width:693px ;
-            height:536px;
-            img{
-                width: 200px;
-                height: 200px;
-            }
-            h3{
-                height:121px;
-                line-height: 121px;
-                margin-left: 44px;
-                a{
-                    color:#333333;
-                    font-size: 26px;
-                    &:hover{
-                       color:#dc4f45;
-                    }
-                }   
-            }
-            ul{
-                margin-left: 20px;
-                li{
-                    float: left; 
-                    height: 352px; 
-                    margin-left: 10px;
-                    .price{
-                        font-size: 22px;
-                        color:#DC4F45;
-                        text-indent:13px;
-                        margin-top: 13px;
-                    }
-                    .cakeName{
-                        margin-top: 8px;
-                        text-indent: 10px;   
-                        a{
-                            color:#666666;
-                            font-size: 14px;
-                            &:hover{
-                                color:#dc4f45;
-                            }
-                        }
-                    }
-                    .num{
-                        display: inline-block;
-                        color:#999999;
-                        margin-top: 5px;
-                        text-indent: 10px;
-                        font-size: 13px; 
-                    }
-                    .more{
-                       margin-top: 42px;
-                       width: 45px;
-                       height:25px;
-                       background: url(../img/but.png) no-repeat;
-                       text-align: center;
-                       margin-left: 15px;
-                       a{
-                           color:#FFFFFF;
-                           font-size:12px;
-                           line-height: 29px;  
-                       }
-                    }
-                }
+            width: 42px;
+            margin-right: 10px;
+            line-height: 41px;
+            a{
+                color:#666666;
             }  
         }
+        .pic1{
+            text-align: right;
+            background: url(../listImg/bigPic.jpg) no-repeat left;
+        }
+        .pic2{
+            text-align: right;
+            background: url(../listImg/list.jpg) no-repeat left;
+        }
     }
-    .cakeBottom{
-        width: 170px;
-        height: 40px;
-        border-radius:20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        background: #DC4F45;
-        color:#FFFFFF;
-        margin:0 auto;
-        text-align: center;
-        line-height: 40px;
-        font-size:15px;
-        margin-top: 32px;
-        opacity: 0.5;
+    .page{
+        float: left;
+        margin-left:408px;
+        color:#666666;
+        line-height: 41px;
     }
-    .boom{
-        margin-top: 42px;
+    #left{
+        float: left;
+        width: 24px;
+        height: 23px;
+        margin-top: 10px;
+        background: url(../listImg/pageBut.jpg) no-repeat;
+    } 
+    #right{
+        float: left;
+        width: 23px;
+        height: 23px;
+        margin-top: 10px;
+        background: url(../listImg/pageButR.jpg) no-repeat;
+    }  
+}
+.imgs{
+    width: 177px;
+    float: right;
+    margin-right:140px;
+    margin-top: -79px;
+    border:1px solid #E2E5E9;
+    p{
+        height: 36px;
+        background:#E2E5E9;
+        line-height: 36px;
+        color:#666666;
+        span{
+            float:right;
+            a{
+                color: #666666;
+                &:hover{
+                    color:#DC4F45;
+                }
+            }
+        }
+    }
+    figure{
+        height: 254px;
+        border-bottom: 1px solid #e2e5e9;
         img{
-            width:100%;
+            width:150px;
+            height: 150px;
+            margin: 21px 4px 5px 24px;
+        }
+        p{
+            margin-left: 36px;
+            background: #FFFFFF;
+            a{
+                color:#666666;
+            }
+        }
+        span{
             display: inline-block;
+            color: #DC4F45;
+            margin-left: 75px;
         }
     }
 }
-.picture{
-    width: 1150px;
-    height: 738px;
-    margin:0 auto;
-    margin-top: 55px;
-    img{
-        display: block;
-    }
-    .top{
-        margin-left: 136px;
-        margin-bottom: 6px;
-    }
-    .bottom{
-        width:1152px;
-        a{
-          float: left;
+.imgList2,.imgList3{
+    display: none;
+}
+.imgList,.imgList2,.imgList3{
+    width: 935px;
+    margin-left:136px ;
+    li{
+        float: left;
+        width: 244px;
+        height: 384px;
+        margin:9px 33px;
+        padding: 14px 11px;
+        img{
+            margin-left: 10px;
+        }
+        p{
+            width: 221px;
+            height: 41px;
+            color:#666666;
+            font-size: 13px;
+        }
+        span{
+            display: inline-block;
+            width: 70px;
+            height: 48px;
+            line-height: 48px;
+            color: #DC4F45;
+            font-size: 14px;  
+        }
+        div{
+            margin-bottom: 15px;
+            a{
+                display: inline-block;
+                width: 23px;
+                height: 23px;
+                border:1px solid #a9a9a9;
+                text-align: center;
+                color:#666666;
+                float:left;
+                margin-top:19px;
+            }
+            input{
+                width: 32px;
+                height: 23px;
+                float: left;
+                margin-top:19px;        
+            }
+            span{
+                display: inline-block;
+                width: 90px;
+                height: 18px;
+                font-size: 12px;
+                line-height: 12px;
+                text-align: center;
+                color: #666666;
+                float: left;
+                margin-top: 22px;
+                background: #e2e5e9;
+                margin-left: 13px;
+            } 
         }
     }
 }
-.allcake{
-    width: 170px;
-        height: 40px;
-        border-radius:20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        background: #DC4F45;
-        color:#FFFFFF;
-        margin:0 auto;
+.listPage{
+    width: 935px;
+    height: 24px;
+    float: left;
+    margin-left: 138px;
+    text-align: right;
+    margin-bottom: 10px;
+    a{
+        display: inline-block;
+        width:24px ;
+        height: 24px;
+        line-height: 24px;
+        border:1px solid #dddddd;
+        color:#666666;
         text-align: center;
-        line-height: 40px;
-        font-size:15px;
-        margin-top: 32px;
-        opacity: 0.5;
-}
-.line{
-    width: 100%;
-    height:60px;
-    border-bottom: 1px solid #f6f6f6;
-}
-//蛋糕logo
-.botLogo{
-    width: 100%;
-    height:251px;
-    border:1px solid #F6F6F6;
-    text-align: center;
-    margin-top: 98px;
-    img{
-        margin-top: 30px;
     }
-    .mkmkCake{
-       font-size: 16px;
-       color:#333333; 
-    }
-    .freesend{
-        margin-top: 8px;
-    }
-    .bearnum{
-        width:119px;
-        height:29px;
-        line-height: 29px;
-        margin: 0 auto; 
-        background: #3897f0;
-        color:#FFFFFF;
-        margin-top: 15px;
+    a:nth-child(1),a:nth-child(5){
+        width: 27px;
+        height: 23px;
     }
 }
 //帮助中心
 .botHelp{
+    clear:both;
     width:100%;
     height:271px;
     background:#f8f8f8;
@@ -822,4 +729,3 @@ banner{
     }
 }
    
-

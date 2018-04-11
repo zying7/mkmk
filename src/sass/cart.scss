@@ -97,347 +97,54 @@ nav{
         }
     }
 }
-//banner
-banner{
-    width:100%;
-    height:590px;
-//  position:absolute;
-    .banner1{
-        display: block;
-//      width: 100%;
-        height:590px;
-    }
-    .bannerLeft{
-        width: 46px;
-        height: 85px;
-        background: url(../img/but1.png) no-repeat right;
-        position: absolute;
-        left:0;
-        top:450px;
-    }
-    .bannerRight{
-        width: 46px;
-        height: 85px;
-        background: url(../img/but1.png) no-repeat left;
-        position: absolute;
-        right:35px;
-        top:450px;
-    }
-    .banBottom{
-        clear: both;
-        width:944px;
-        height:92px;
-        background:url(../img/bannerBottom.png) no-repeat ;
-        position:absolute;
-        left:241px;
-        top:745px;
-        .L{
-            width: 72px;
-            height: 46px;
-            float: left;
-            margin-left: 44px; 
-            margin-top: 18px; 
-            a{
-                color:#fff;
-                font-size:18px;
-                &:hover{
-                       color:#dc4f45;
-                }
-            }
-        }
-        .M {
-//          width: 157px;
-            height: 27px;
-            float: left;
-            margin-left: -100px; 
-            margin-top: 33px; 
-            background: url(../img/tell.jpg) no-repeat 340px;
-            a{
-            text-align: center;
-            color: #fff;
-            font-size: 16px;
-            margin-left: 370px;
-                &:hover{
-                       color:#dc4f45;
-                }
-            }
-        }
-        .R{
-           width:133px;
-           height: 38px; 
-           background-color: #FFFFFF;
-           float: left;
-           margin-left:251px;
-           margin-top: 25px;
-           text-align: center;
-           a{
-               display: block;
-               width:133px ;
-               height:38px ;
-               line-height: 38px;
-               font-size: 16px;
-               &:hover{
-                       color:#FFFFFF;
-                       background: #e4857f;
-               }
-           }
-        } 
-    }
-}
-//recommendation精品推荐
-.recommendation{
-    clear:both;
-    width: 100%;
-    height:1096px;
-    background-color: #e2e5e9;
-    .bg1{
-        height: 50px;
-        background: #E2E5E9;
-    }
-    .bg2{
-        float: left;
-        width: 347px;
-        height: 273px;
-        margin-left: 44px;
-        margin-top: 50px;
-    }
-    .title{
-        float: left;
-        width:660px ;
-        height: 323px;
-        .ico1{
-            margin-left:298px;
-            margin-top:95px;
-        }
-        .box{
-            height: 114px;
-            margin-top: 30px;
-            .ico2{
-                margin-left: 40px;
-            }
-            .word1{
-                text-align: center;
-                display: inline-block;
-                width: 233px;
-                height: 37px;
-                font-size: 30px;
-                color: #555555;  
-            }
-        }
-        .word2{
-            display: inline-block;
-            font-size: 20px;
-            color: #DC4F45;
-            margin-left: 245px;
-            margin-top: 9px;
-        }
-    }
-    .cakebutL{
-            clear:both;
-            width: 50px;
-            height:50px;
-            background: url(../img/main.png) no-repeat 0 -308px;
-            position: absolute;
-            top:1450px;
-            left:109px;
-        }
-    .cakebutR{
-        clear:both;
-        width: 50px;
-        height:50px;
-        background: url(../img/main.png) no-repeat -149px -308px;
-        position: absolute;
-        top:1450px;
-        right:109px;
-    }
-    .cakeShow2{
-            display: none;
-        }
-    .cakeShow1,.cakeShow2{
-        clear: both;
-        width: 1150px;
-        height: 536px;
-        margin: 0 auto;
-        .sweet{
-            width:85px;
-            height:115px;
-            position:absolute;
-            background: url(../img/main.png) no-repeat -115px -93px;
-            left:1154px;
-            p{
-               font-size: 14px;
-               color:#FFFFFF;
-               text-align: center; 
-               margin-top: 36px;
-            }
-            .hot{
-                margin-top:10px;
-            }
-        }
-        .cakeImg{
-            width: 457px;
-            height:536px;
-            float: left;
-        }
-        .cakeList1,.cakeList2{
-            float:left;
-            background: #FFFFFF;
-            width:693px ;
-            height:536px;
-            img{
-                width: 200px;
-                height: 200px;
-            }
-            h3{
-                height:121px;
-                line-height: 121px;
-                margin-left: 44px;
-                a{
-                    color:#333333;
-                    font-size: 26px;
-                    &:hover{
-                       color:#dc4f45;
-                    }
-                }   
-            }
-            ul{
-                margin-left: 20px;
-                li{
-                    float: left; 
-                    height: 352px; 
-                    margin-left: 10px;
-                    .price{
-                        font-size: 22px;
-                        color:#DC4F45;
-                        text-indent:13px;
-                        margin-top: 13px;
-                    }
-                    .cakeName{
-                        margin-top: 8px;
-                        text-indent: 10px;   
-                        a{
-                            color:#666666;
-                            font-size: 14px;
-                            &:hover{
-                                color:#dc4f45;
-                            }
-                        }
-                    }
-                    .num{
-                        display: inline-block;
-                        color:#999999;
-                        margin-top: 5px;
-                        text-indent: 10px;
-                        font-size: 13px; 
-                    }
-                    .more{
-                       margin-top: 42px;
-                       width: 45px;
-                       height:25px;
-                       background: url(../img/but.png) no-repeat;
-                       text-align: center;
-                       margin-left: 15px;
-                       a{
-                           color:#FFFFFF;
-                           font-size:12px;
-                           line-height: 29px;  
-                       }
-                    }
-                }
-            }  
-        }
-    }
-    .cakeBottom{
-        width: 170px;
-        height: 40px;
-        border-radius:20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        background: #DC4F45;
-        color:#FFFFFF;
-        margin:0 auto;
-        text-align: center;
-        line-height: 40px;
-        font-size:15px;
-        margin-top: 32px;
-        opacity: 0.5;
-    }
-    .boom{
-        margin-top: 42px;
-        img{
-            width:100%;
-            display: inline-block;
-        }
-    }
-}
-.picture{
+//主体
+.carico{
     width: 1150px;
-    height: 738px;
+    height: 53px;
+    margin: 0 auto;
+    p{
+        height: 53px;
+        line-height: 53px;
+        color:#666666;
+        font-size: 23px;
+        padding-left: 30px;
+        background: url(../cartImg/icon.jpg) no-repeat left center;
+    }
+}
+.product{
+    width: 1150px;
+    height: 238px;
     margin:0 auto;
-    margin-top: 55px;
-    img{
-        display: block;
-    }
-    .top{
-        margin-left: 136px;
-        margin-bottom: 6px;
-    }
-    .bottom{
-        width:1152px;
-        a{
-          float: left;
+    background: #efefef;
+    padding-top: 80px;
+    .word{
+        width: 400px;
+        height: 66px;
+        margin: 0 auto;
+        img{
+            float: left;
         }
-    }
-}
-.allcake{
-    width: 170px;
-        height: 40px;
-        border-radius:20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        background: #DC4F45;
-        color:#FFFFFF;
-        margin:0 auto;
-        text-align: center;
-        line-height: 40px;
-        font-size:15px;
-        margin-top: 32px;
-        opacity: 0.5;
-}
-.line{
-    width: 100%;
-    height:60px;
-    border-bottom: 1px solid #f6f6f6;
-}
-//蛋糕logo
-.botLogo{
-    width: 100%;
-    height:251px;
-    border:1px solid #F6F6F6;
-    text-align: center;
-    margin-top: 98px;
-    img{
-        margin-top: 30px;
-    }
-    .mkmkCake{
-       font-size: 16px;
-       color:#333333; 
-    }
-    .freesend{
-        margin-top: 8px;
-    }
-    .bearnum{
-        width:119px;
-        height:29px;
-        line-height: 29px;
-        margin: 0 auto; 
-        background: #3897f0;
-        color:#FFFFFF;
-        margin-top: 15px;
+        p{
+            float: left;
+            margin-left:26px;
+            margin-top:10px;
+            color:#666666;
+            a{
+                color:#0563C3;
+                text-decoration: underline;
+                &:hover{
+                    color:#DC4F45;
+                }
+            }
+        }
+        p:nth-child(2){
+           margin-top: 16px;
+        }
     }
 }
 //帮助中心
 .botHelp{
+    clear:both;
     width:100%;
     height:271px;
     background:#f8f8f8;
@@ -512,6 +219,37 @@ banner{
         margin-top:71px;
     }  
 }
+.newCart{
+    width: 1150px;
+    height: 70px;
+    margin:0 auto;
+    .icon2{
+        text-align: right;
+    }
+    .productList{
+        width: 1150px;
+        height: 270px;
+        margin: 0 auto;
+        table{
+            tr:nth-child(1){
+                background: #d8d8d8;
+                height: 35px;
+                text-align: center;
+                td{
+                    width: 100px;
+                }
+                td:nth-child(1){
+                    width: 526px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
 //广告
 .ad1{
     position:fixed;
@@ -821,5 +559,3 @@ banner{
         }
     }
 }
-   
-
